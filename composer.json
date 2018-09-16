@@ -1,0 +1,16 @@
+{
+    "name": "glushko/jira-worklog-importer",
+    "authors": [
+        {
+            "name": "Roman Glushko",
+            "email": "roman.glushko.m@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1",
+        "lesstif/php-jira-rest-client": "^1.31"
+    },
+    "autoload": {
+        "psr-4": { "JiraWorklogImporter\\": "" }
+    }
+}
